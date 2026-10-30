@@ -1,0 +1,28 @@
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.global {
+  margin: auto;
+  width: 100%;
+}
+
+.fetching {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* transform: translateX(-50%); */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
+  z-index: 10;
+}
+
+.fetching > div {
+  margin-top: 280px;
+}

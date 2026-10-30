@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  text-align: center;
+  min-height: 50vh;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #212529; /* Основной темный цвет из ваших стилей формы */
+  margin: 0 0 8px 0;
+}
+
+.text {
+  font-size: 15px;
+  color: #6c757d; /* Слегка приглушенный серый (цвет disabled из формы) */
+  margin: 0 0 16px 0;
+}
+
+/* Стили на основе вашей основной кнопки .submitButton */
+.actionButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #0d6efd; /* Фирменный синий */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actionButton:hover {
+  background-color: #0b5ed7;
+}
